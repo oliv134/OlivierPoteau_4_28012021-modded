@@ -679,7 +679,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 1.5rem;
 }
 
 .tight-width-whitespace {
@@ -1069,3 +1069,12 @@ h4 {
 .sr-only {
   color: black;
 }
+cite {
+  color:#5050509
+}
+
+/* Add by me*/
+blockquote * {
+  font-size: 2rem;
+}
+
