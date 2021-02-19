@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -653,7 +653,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #000000 !important;
 }
 
 .container {
@@ -774,15 +774,16 @@ h4 {
 
 .bgc-atomic-tangerine {
   background-color: #f3976c;
+  color: #000000;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1064,3 +1065,7 @@ h4 {
   }
 }
 
+/* Accessibility */
+.sr-only {
+  color: black;
+}
